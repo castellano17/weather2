@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.backgroud__image {
+  background: linear-gradient(
+    180deg,
+    #2c6cbf 0%,
+    #4183d9 25%,
+    #4e98d9 50%,
+    #4183d9 75%,
+    #2c6cbf 100%
+  );
+}

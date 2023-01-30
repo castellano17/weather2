@@ -1,0 +1,12 @@
+img {
+  width: 90%;
+  margin-bottom: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

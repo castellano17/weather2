@@ -1,0 +1,137 @@
+.Card__title {
+  font-size: 3rem;
+  color: #f2d600;
+  font-family: "Rubik", sans-serif;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1.5px -1.5px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding: 10px;
+}
+
+.Card__container {
+  font-family: "Rubik", sans-serif;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Card__countryName {
+  font-size: 2rem;
+  color: #f2d600;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-bottom: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.Card__temperature {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Card__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  color: white;
+  font-size: 1rem;
+}
+
+.Card__items span {
+  font-weight: bold;
+  color: #023047;
+}
+
+.Card__description {
+  color: white;
+  font-size: 20px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.Card__btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2c6cbf;
+  cursor: pointer;
+  transition: transform 300ms ease;
+  margin-bottom: 15px;
+}
+
+.Card__btn:hover {
+  transform: scale(1.03);
+}
+
+.Card__img {
+  width: 100px;
+}
+
+/* CONTAINER SEARCER*/
+
+.container__searcher {
+  font-family: "Rubik", sans-serif;
+  padding: 1rem 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.container-input-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  /* padding: 0.3rem; */
+}
+
+.input-searcher {
+  padding: 0.3rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.container__btn {
+  border: none;
+  padding: 8px 8px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2c6cbf;
+  cursor: pointer;
+  transition: transform 300ms ease;
+  margin: auto;
+}
+.container__btn:hover {
+  transform: scale(1.03);
+}
