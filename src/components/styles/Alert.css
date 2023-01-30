@@ -1,0 +1,8 @@
+.Alert {
+  background-color: rgb(235, 78, 78);
+  padding: 4px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+}

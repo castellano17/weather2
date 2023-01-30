@@ -1,8 +1,15 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
 import "./styles/WeatherCard.css";
+import Alert from "./Alert";
 
-const WeatherCard = ({ weather, temps, isCelsius, changeUnitTemp }) => {
+const WeatherCard = ({
+  weather,
+  temps,
+  isCelsius,
+  changeUnitTemp,
+  handleSubmit,
+  showAlert,
+}) => {
   const imageMap = {
     "01d": "DaySun.svg",
     "02d": "DayClouds.svg",
@@ -24,16 +31,11 @@ const WeatherCard = ({ weather, temps, isCelsius, changeUnitTemp }) => {
     "50n": "NightWind.svg",
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   const nameCountry = e.target.nameCountry.value;
-  // };
-
   return (
     <section>
       <h1 className="Card__title">Weather App</h1>
 
-      {/* <div className="container__searcher">
+      <div className="container__searcher">
         <form onSubmit={handleSubmit} className="container-input-logo">
           <input
             id="nameCountry"
@@ -43,8 +45,8 @@ const WeatherCard = ({ weather, temps, isCelsius, changeUnitTemp }) => {
           />
           <button className="container__btn">Search</button>
         </form>
-      </div> */}
-
+        {showAlert && <Alert />}
+      </div>
       <div className="Card__container">
         <h2 className="Card__countryName">
           {weather?.name}, {weather?.sys.country}
