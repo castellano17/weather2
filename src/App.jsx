@@ -3,7 +3,6 @@ import "./App.css";
 import axios from "axios";
 import WeatherCard from "./components/WeatherCard";
 import Loader from "./components/Loader";
-import Alert from "./components/Alert";
 
 const API_KEY = "0e98db3fe73bb5a1e8953357960dfa34";
 
@@ -29,7 +28,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setNameCountry(e.target.nameCountry.value);
-    console.log(e.target.nameCountry.value);
   };
 
   useEffect(() => {

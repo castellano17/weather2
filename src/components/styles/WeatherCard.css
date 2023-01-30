@@ -85,7 +85,7 @@
 }
 
 .Card__img {
-  width: 100px;
+  width: 150px;
 }
 
 /* CONTAINER SEARCER*/
@@ -104,27 +104,19 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
-  padding-bottom: 30px;
-}
-
-.container-input-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 0.5rem;
-  /* padding: 0.3rem; */
+  padding-bottom: 20px;
 }
 
 .input-searcher {
-  padding: 0.3rem;
+  padding: 0.5rem;
   border: none;
   border-radius: 0.5rem;
+  margin-right: 3px;
 }
 
 .container__btn {
   border: none;
-  padding: 8px 8px;
+  padding: 8px 10px;
   font-size: 15px;
   border-radius: 10px;
   color: white;
