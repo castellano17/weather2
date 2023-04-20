@@ -1,6 +1,8 @@
 import axios from "axios";
 import "./styles/WeatherCard.css";
 import Alert from "./Alert";
+import { imageMap } from "../utils/Images";
+("../utils/Images.js");
 
 const WeatherCard = ({
   weather,
@@ -10,27 +12,6 @@ const WeatherCard = ({
   handleSubmit,
   showAlert,
 }) => {
-  const imageMap = {
-    "01d": "DaySun.svg",
-    "02d": "DayClouds.svg",
-    "03d": "DaySnow.svg",
-    "04d": "DayWind.svg",
-    "09d": "DayRain.svg",
-    "10d": "DayRain.svg",
-    "11d": "DayStorm.svg",
-    "13d": "DaySnow.svg",
-    "50d": "DayWind.svg",
-    "01n": "NightMoon.svg",
-    "02n": "NightClouds.svg",
-    "03n": "NightClouds.svg",
-    "04n": "NightClouds.svg",
-    "09n": "NightRain.svg",
-    "10n": "NightRain.svg",
-    "11n": "NightStorm.svg",
-    "13n": "NightSnow.svg",
-    "50n": "NightWind.svg",
-  };
-
   return (
     <section>
       <h1 className="Card__title">Weather App</h1>
